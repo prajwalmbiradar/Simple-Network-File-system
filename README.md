@@ -18,3 +18,13 @@ Scalability: NFS can scale to accommodate large numbers of clients accessing sha
 
 Getting Started:
 To use NFS, you typically need access to a server that is configured to export directories for sharing and one or more client machines that mount these shared directories.
+Installation:
+These files best works for the windows os
+first compile both files as follows:
+                              g++ -o client.exe client.cpp -lws2_32
+for server compile as follows
+                              g++ -o server.exe server.cpp -lws2_32
+an applications will be created for both files
+double click and run files on respective machines
+configure firewall to allow connection to port 8080
+
